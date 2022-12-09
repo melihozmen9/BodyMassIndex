@@ -16,6 +16,7 @@
 		2151319C2941E1AB00E37B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151319A2941E1AB00E37B33 /* LaunchScreen.storyboard */; };
 		215131A72941E1AC00E37B33 /* BodyMassIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215131A62941E1AC00E37B33 /* BodyMassIndexTests.swift */; };
 		215131B22941E1AC00E37B33 /* BodyMassIndexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215131B12941E1AC00E37B33 /* BodyMassIndexUITests.swift */; };
+		216982682943CDE000F83C2A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216982672943CDE000F83C2A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		215131AD2941E1AC00E37B33 /* BodyMassIndexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyMassIndexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		215131B12941E1AC00E37B33 /* BodyMassIndexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMassIndexUITests.swift; sourceTree = "<group>"; };
 		215131B32941E1AC00E37B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216982672943CDE000F83C2A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				215131902941E1AB00E37B33 /* ViewController.swift */,
+				216982672943CDE000F83C2A /* ResultViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216982682943CDE000F83C2A /* ResultViewController.swift in Sources */,
 				215131972941E1AB00E37B33 /* BodyMassIndex.xcdatamodeld in Sources */,
 				215131912941E1AB00E37B33 /* ViewController.swift in Sources */,
 				2151318D2941E1AB00E37B33 /* AppDelegate.swift in Sources */,
